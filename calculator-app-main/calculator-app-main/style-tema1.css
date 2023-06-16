@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: hsl(222, 26%, 31%);
+}
+.layout{
+    display: flex;
+}
+.calculator-box{
+    margin-top: 4rem;
+    height: 750px;
+    width: 660px;
+background-color: hsl(222, 26%, 31%);
+border-radius: 30px;
+}
+.box-title{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+.results-box{
+    border: none;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5rem;
+    height: 170px;
+    width: 600px;
+    background-color: hsl(224, 36%, 15%);
+}
+.theme-section{
+    margin-top: 1rem;
+    margin-left: 340px;
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: hsl(0, 0%, 100%);
+}
+.head-layout{
+
+    display: flex;
+align-items: center;
+}
+.theme-toggle{
+    margin: 5px;
+    width: 18px;
+    height: 18px;
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 300px;
+}
+.themes{
+    margin-left: 2rem;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    background-color: hsl(224, 36%, 15%);
+}
+.themes-selection{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.themes-layout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.numbers-line{
+    margin-left: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.numbers-calculator{
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+    background-color:hsl(223, 31%, 20%);
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+article{
+    gap: 1.3rem;
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoes1{
+    margin-top: 1.5rem;
+    cursor: pointer;
+    background-color: hsl(30, 25%, 89%);
+    border-bottom: 5px solid hsl(28, 16%, 65%);
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: hsl(222, 26%, 31%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.butoes2{ cursor: pointer;
+    background-color: hsl(30, 25%, 89%);
+    border-bottom: 5px solid hsl(28, 16%, 65%);
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: hsl(222, 26%, 31%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.butoes3{
+    cursor: pointer;
+    background-color: hsl(30, 25%, 89%);
+    border-bottom: 5px solid hsl(28, 16%, 65%);
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: hsl(222, 26%, 31%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.butoes4{
+    border-bottom: 5px solid hsl(28, 16%, 65%);
+    cursor: pointer;
+    background-color: hsl(30, 25%, 89%);
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: hsl(222, 26%, 31%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.engual{
+    cursor: pointer;
+    color:  hsl(0, 0%, 100%);
+    border-bottom: 5px solid hsl(6, 70%, 34%);
+    background-color:  hsl(6, 63%, 50%);
+    width: 240px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 25px;
+}
+.reset{
+ 
+    cursor: pointer;
+    border-bottom: 5px solid hsl(224, 28%, 35%);
+    color:  hsl(0, 0%, 100%);
+    background-color:   hsl(225, 21%, 49%);
+    width: 280px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 20px; 
+}
+.del{
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border-bottom: 5px solid hsl(224, 28%, 35%);
+    color:  hsl(0, 0%, 100%);
+    background-color:   hsl(225, 21%, 49%);
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 20px; 
+}
+.direcionamento{
+    font-size: 100px;
+    color: hsl(6, 63%, 50%);
+}
